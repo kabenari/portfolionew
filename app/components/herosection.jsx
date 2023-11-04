@@ -6,26 +6,26 @@ import { TypeAnimation } from "react-type-animation";
 const HeroSection = () => {
   return (
     <section>
-        <div className="grid grdi-cols-1 lg:grid-cols-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 pb-96">
             <div className="col-span-7 place-self-center text-center sm:text-left">
-                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-600">
+                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold mt-44 pb-10">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-600 pb-10">
                         Hello, I'm{" "}
                     </span>
                     <br></br>
-                    <TypeAnimation
+                    <TypeAnimation className="pb-10"
                     sequence={[
                         'Swarup',
                         1000,
-                        'A Web Developer',
+                        'Web Developer',
                         1000,
-                        'Learning Blockchain',
+                        'Full Stack Blockchain Dev',
                         1000,
-                        'Studyin Engineering',
+                        'React Dev',
                         1000
                     ]}
                     wrapper="span"
-                    speed={40}
+                    speed={60}
                     repeat={Infinity}
                     />
                 </h1>
@@ -41,7 +41,7 @@ const HeroSection = () => {
             <div className="col-span-5 place-self-center mt-4 lg:mt-0">
                 <div className="rounded-full bg-[#000000] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative lg:ml-9" >
                     <Image  
-                    src="/images/hero-image3.png"
+                    src="/images/gif2.gif"
                     alt=".hero"
                     className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 z-0"
                     width={500}
