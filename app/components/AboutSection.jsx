@@ -10,6 +10,7 @@ const TAB_DATA = [
     content:(
       <ul className='list-disc pl-2'>
         <li>Solidity</li>
+        <li>Algorithms Hackerrank 1000+ points</li>
         <li>Ethers.js</li>
         <li>React</li>
         <li>Firebase</li>
